@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef7c44662df64e5b9539998c68b20b3a, type: 3}
+  m_Name: SettingsInstaller
+  m_EditorClassIdentifier: 
+  levelSettings:
+    <LoadingTimerLength>k__BackingField: 1
+    <InGameTimerLength>k__BackingField: 10
+    <CoinsCount>k__BackingField: 25
+  playerSettings:
+    <Speed>k__BackingField: 5
+  spaceSettings:
+    <LowerPoint>k__BackingField: {x: -5, y: -5}
+    <HighPoint>k__BackingField: {x: 5, y: 5}

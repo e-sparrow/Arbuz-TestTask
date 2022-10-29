@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4fcc15d75ce4463c884dd8ef1a96362b, type: 3}
+  m_Name: ServicesInstaller
+  m_EditorClassIdentifier: 
+  soundSettings:
+    sources:
+    - <Type>k__BackingField: 0
+      <Clip>k__BackingField: {fileID: 8300000, guid: 28109e028536375448ab651c37a266ef, type: 3}
+    - <Type>k__BackingField: 1
+      <Clip>k__BackingField: {fileID: 8300000, guid: bf58906e6f8d3e94b8cdec8d6887aee0, type: 3}
+  pitchSettings:
+    <Value>k__BackingField: 1
+    <Step>k__BackingField: 0.1
+    <Time>k__BackingField: 3
+    <StepsCount>k__BackingField: 5
