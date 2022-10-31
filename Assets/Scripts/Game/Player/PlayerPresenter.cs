@@ -37,10 +37,13 @@ namespace Game.Player
 
         public void LateDispose()
         {
-            _controls?.Disable();
-            
-            _controls.Main.Movement.started -= StartMove;
-            _controls.Main.Movement.canceled -= CancelMove;
+            if (_controls != null)
+            {
+                _controls.Main.Movement.started -= StartMove;
+                _controls.Main.Movement.canceled -= CancelMove;
+
+                _controls.Disable();
+            }
         }
 
         private void Enable()

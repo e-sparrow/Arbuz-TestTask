@@ -52,7 +52,7 @@ namespace Input
                 {
                     ""name"": ""WSAD"",
                     ""id"": ""84a2c54a-02ef-4ddd-b843-177318d15882"",
-                    ""path"": ""2DVector"",
+                    ""path"": ""2DVector(mode=2)"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
